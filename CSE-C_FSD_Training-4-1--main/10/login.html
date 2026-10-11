@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label for="">Username : </label>
+            <input type="text" placeholder="Enter Username" id="username"> <br><br>
+
+            <label for="">Password : </label>
+            <input type="password" placeholder="Enter Password" id="password"> <br><br>
+            <button type="button" id="btn">Generate OTP</button>
+            <span> </span><br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+    </form>
+    <script>
+        let userN=document.getElementById("username");//to select the user name 
+        let psw=document.getElementById("password");
+        let formContainer=document.querySelector('form');
+        //events:works when we perform some action
+        //we can apply event in 3 ways :attribute way(onclick),variablename(btn.onclick),
+        formContainer.addEventListener('submit',(e)=>{
+            e.preventDefault();//prevents the form from refreshing the page
+            console.log("Username", userN.value);//why .value??
+            console.log("Password",psw.value);
+        });
+        let btn=document.getElementById("btn");
+        btn.addEventListener("click",()=>{
+            //span tag ni target chesukovali
+            const spancontainer=document.querySelector("span");
+            //generates single digit random number
+            let otp=Math.round(Math.random()*1000000);
+            spancontainer.innerText=otp;
+            let bodycontainer=document.querySelector("body");
+        //var.style.backgroundcolor
+        bodycontainer.style.backgroundColor=`#${otp}`;
+        let buttons=document.getElementsByTagNameNS("button");
+        console.log(buttons[0]);//ask chat gpt
+        console.log(buttons[1]);
+        })
+    </script>
+</body>
+</html>

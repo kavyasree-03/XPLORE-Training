@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=syn, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        fetch("https://dummyjson.com/products").then((res)=>res.json()).then((data)=>
+    {
+        console.log(data);
+    }).catch((err)=>
+    {
+        console.log("failed to fetch data",err);
+    })
+    //no convertion to json
+        fetch("https://dummyjson.com/products").then((response)=>{
+            console.log(response);
+        });//predefinid inbuilt function it is in the windows object
+        //To iterate array this.map or loops or foreach
+    </script>
+</body>
+</html>

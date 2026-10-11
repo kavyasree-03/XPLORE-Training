@@ -1,0 +1,43 @@
+Java Script
+*Closure
+->JS is single call stack(you can execute one function at a time)
+10 types of functions:
+1.Anonymus Functions
+2.Functional Expression
+3.Arrow Function:
+->Arrow functions are used to reduce the syntax of the function.
+->Introduced in the version ES6.
+->Follows 3 Rules:
+1.If it contains more than 1 statement keep it {}.
+2.If it contains return Keyword ,then also it keep in {}.
+3.In Arroe fun this keyword works differently.(if you're accessing this keyword in arrow function it will be target windows object)
+eg:()=>console.log("This is arrow);
+4.Nested Functions:
+In JS, we have GEC-global execution context.
+5.IR Return function:Any functions accept another function as a parameter
+6.call back fun:any Functions that will be passed as a parameter to the irr function that we called as a callback functions
+7.generator function:
+
+JSON(Java Script object Notation)
+->Json is similar to js object.
+->json-string you have to use inbuilt functions.
+1.JSON.STRINGIFY(pass json object as a parameter)
+->string-json
+2.JSON.PARSE() method
+Eg:
+let jsondata={
+    "name":"Mohana",
+    "age":20
+}
+
+BOM(Browser Object Model)
+->Each Browser contains BOM.
+->BOM contains inbuilt windows object.(pre defined )
+->windows inbuilt functions:
+1.innerHight
+2.innerWidth
+3.outerHight
+4.outerWight
+5.windows.open
+6.windows.close
+7.windows.resize

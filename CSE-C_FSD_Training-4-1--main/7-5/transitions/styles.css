@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: cyan; 
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+div:hover{
+    background-color:green;
+    font-size: 200px;
+}
+div:active{
+    background-color:red;
+}

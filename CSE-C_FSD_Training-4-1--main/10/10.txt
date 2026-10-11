@@ -1,0 +1,28 @@
+DOM(Document Object Model)
+->It is a pre-defined  present in windows object.
+->Using DOM we can manipulate both html and css(DOM Manipulation).
+->Using DOM we can add functionality to the webpage.
+->DOM Methods:used to create
+1.createElement()
+2.innerText-its a keyword
+3.innerHtml-it's a variable name
+4.innerContent-it's a variable name
+5.appendChild()
+6.removeChild()
+->DOM Selectors:used to target the html elements.
+1.getElementById()
+2.getElementByClassName()
+3.getElementsByName()
+4.getElementsByTagName()
+5.queryelector()
+6.quesrySelectorAll()
+------------------------
+asynchronous ,
+Promises(pending state,fullfilled,reject):
+->to handle promises in js:
+i.using aync and await
+ii.then and try catch blocks
+------------------------
+How the Browser Works fetching api
+->open the site called dummy json.then copy the link.(https://dummyjson.com/products)
+

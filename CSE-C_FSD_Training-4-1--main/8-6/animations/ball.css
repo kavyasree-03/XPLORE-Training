@@ -1,0 +1,17 @@
+.ball{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation: ball 2s linear 2s infinite normal;
+}
+@keyframes ball{
+    from{
+        transform: translateX(-300px); /*left to right bounce
+        transform: translateX(-300px);top to bottom*/
+
+    }
+    to{
+        transform: translateX(300px);
+    }
+}

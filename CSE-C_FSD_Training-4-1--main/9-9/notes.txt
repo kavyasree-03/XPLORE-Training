@@ -1,0 +1,52 @@
+*Objects are used to store the values in key-value pair
+*this is used to targeting the current object
+
+Arrow function:
+    ->these are used to reduce syntax
+    ->it is introduced in es6
+    it follows 3 rules:
+        1. if arrow function contains moore than one statement we keep in braces.
+        2.if arrow function contains return keyword then also we need to keep braces{}.
+        3.in arrow function this keyword works differently(so if you are accessing this keyword in arrow function it will target windows object)
+
+
+Nested functions:
+    ->function having another function inside
+Higher Order function;
+    ->Any function that accept another function as a parameter
+Callback function:
+    ->any function that will pass as parameter to the high order functions 
+Generator function:
+    ->it is used to generate a new variable
+    -> we use the yield keyword in this
+
+
+
+
+JSON:
+    ->JSON is similar to javaScript Objects
+    ->here keys are in objects
+    ->JSON in-built functions
+        1.JSON.stringify(//we have to pass parameters)
+        2.JSON.parse() //to convert string into object
+
+
+BOM:
+    ->browser object model
+    ->each and every browsers contain browser object model
+    ->BOM contains inbuilt windows object
+    ->inbuilt window functions
+        1.innerHeight()
+        2.innerWidth()
+        3.outerHeight()
+        4.outerWidth()
+        5.windows.open()
+        6.windows.close()
+        7.windows.resize()
+        8.alert()
+        9.confirm()
+        10.prompt()
+        11.sessionStorage()
+        12.localStorage()
+        13.cookies()
+        14.DOM()
